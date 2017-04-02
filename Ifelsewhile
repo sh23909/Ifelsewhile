@@ -1,0 +1,14 @@
+import javax.swing.JOptionPane;
+public class Ifelsewhile{
+	public static void main(String [] args){
+	int chance=3;
+	while(chance>0 && chance<4){
+	String uname=JOptionPane.showInputDialog(null, "Enter user name");
+	String pw=JOptionPane.showInputDialog(null, "Enter password");
+	JOptionPane.showMessageDialog(null, result);
+	chance--;
+	}
+	JOptionPane.showMessageDialog(null, "Contact Administratow");
+	}	
+	}
+
